@@ -6,7 +6,9 @@
 The artifact consists of following three parts：
 
 - Data
-  The data needs to be downloaded from the given link and placed in the ./data directory, which is structured as follows: 
+  
+  The data needs to be downloaded from the given link and Unzip to the ./data directory, which is structured as follows:
+  
   - *DataZIP*：This folder contains original data extracted by DiscordChatExporter, which is stored in zip format.
   - *DataJSON*: This folder contains utterances extracted from zip files in *DataZIP*, which are stored in json format.
   - *DataTXT*: This folder contains the utterances with timestamp, username and utterance content, which are extracted from JSON files.
