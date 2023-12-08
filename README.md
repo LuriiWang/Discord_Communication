@@ -2,6 +2,7 @@
 
 ---
 *Package Structure*
+
 The artifact consists of following three parts：
 - Data
   
