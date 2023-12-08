@@ -79,6 +79,7 @@ How to: Run this command from the specified directory: *./Code/preprocess/.py*
      (ii) removed the emojis in the utterances by using a Python library.
 
        How to: Run this command from the specified directory: ./Code/preprocess/ChangeStyle.py
+
        Output: The output is stored in *./Data/DataTXT/**
        
      <!--The datasets we preprocessed locate in ./Data. Each utterance consists of a timestamp, a username, and a textual message.-->
@@ -125,7 +126,9 @@ You can generate the quantitative results in each RQs by following the instructi
   Output: the results are stored in *./Data/DataRQ/RQ1/hourly.csv*
 
    - Generate statistics for Fig.6: 
+ 
   Run script: *./Code/QuantitativeAnalysis/RQ1/Get_Weekly.py*
+  
   Output: the results are stored in *./Data/DataRQ/RQ1/weekly.csv*
   
    - Get the response time of dialogs in Dataset I: 
