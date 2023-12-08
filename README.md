@@ -160,6 +160,6 @@ To generate TABLE VI, run the R script *./Code/QuantitativeAnalysis/RQ4/Regressi
 
 (ii) Then run the commands from the specified directory to get the results of regressions:
     
-    *setwd(".\\Discord\\Data\\DataRQ\\RQ4")*
+    Run command: *setwd(".\\Discord\\Data\\DataRQ\\RQ4")*
     
-    *source(".\\Discord\\Code\\QuantitativeAnalysis\\RQ4\\Regression.R",echo = TRUE)*
+    Run command: *source(".\\Discord\\Code\\QuantitativeAnalysis\\RQ4\\Regression.R",echo = TRUE)*
