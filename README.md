@@ -113,11 +113,15 @@ You can generate the quantitative results in each RQs by following the instructi
 
 ### RQ1
    - Generate statistics for Fig.4: 
+  
   Run script: *./Code/QuantitativeAnalysis/RQ1/Get_Longtail.py* 
+  
   Output: the results are stored in *./Data/DataRQ/RQ1/longtail_addinfo.csv*
 
    - Generate statistics for Fig.5: 
+  
   Run script: *./Code/QuantitativeAnalysis/RQ1/Get_Hourly.py* 
+  
   Output: the results are stored in *./Data/DataRQ/RQ1/hourly.csv*
 
    - Generate statistics for Fig.6: 
@@ -125,18 +129,24 @@ You can generate the quantitative results in each RQs by following the instructi
   Output: the results are stored in *./Data/DataRQ/RQ1/weekly.csv*
   
    - Get the response time of dialogs in Dataset I: 
+  
   Run script: *./Code/QuantitativeAnalysis/RQ1/Get_Speed.py*
+  
   Output: the results are stored in *./Data/DataRQ/RQ1/Speed/*
 
    - Get the entangle situation of dialogs in Dataset I: 
+  
   Run script: *./Code/QuantitativeAnalysis/RQ1/Get_Entangle.py*
+  
   Output: the results are stored in *./Data/DataRQ/RQ1/Entangle/ALL.csv*
 
 ### RQ3
 - Get the similarity between questions：
+
   Run script: *./Code/QuantitativeAnalysis/RQ3/Get_TFIDF.py*
 
 - Generate Fig.10:
+
   Run script: *./Code/QuantitativeAnalysis/RQ3/Get_VoilinPlot.py*
 
 ### RQ4
@@ -145,5 +155,7 @@ To generate TABLE VI, run the R script *./Code/QuantitativeAnalysis/RQ4/Regressi
 (i) You need to download R according to the [instructions](https://cran.r-project.org/mirrors.html)
 
 (ii) Then run the commands from the specified directory to get the results of regressions:
+    
     *setwd(".\\Discord\\Data\\DataRQ\\RQ4")*
+    
     *source(".\\Discord\\Code\\QuantitativeAnalysis\\RQ4\\Regression.R",echo = TRUE)*
