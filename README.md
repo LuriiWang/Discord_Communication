@@ -126,6 +126,11 @@ You can generate the quantitative results in each RQs by following the instructi
   
    - Get the response time of dialogs in Dataset I: 
   Run script: *./Code/QuantitativeAnalysis/RQ1/Get_Speed.py*
+  Output: the results are stored in *./Data/DataRQ/RQ1/Speed/*
+
+   - Get the entangle situation of dialogs in Dataset I: 
+  Run script: *./Code/QuantitativeAnalysis/RQ1/Get_Entangle.py*
+  Output: the results are stored in *./Data/DataRQ/RQ1/Entangle/ALL.csv*
 
 ### RQ3
 - Get the similarity between questions：
@@ -136,7 +141,9 @@ You can generate the quantitative results in each RQs by following the instructi
 
 ### RQ4
 To generate TABLE VI, run the R script *./Code/QuantitativeAnalysis/RQ4/Regression.R* you can find more details in the script.
+
 (i) You need to download R according to the [instructions](https://cran.r-project.org/mirrors.html)
+
 (ii) Then run the commands from the specified directory to get the results of regressions:
     *setwd(".\\Discord\\Data\\DataRQ\\RQ4")*
     *source(".\\Discord\\Code\\QuantitativeAnalysis\\RQ4\\Regression.R",echo = TRUE)*
