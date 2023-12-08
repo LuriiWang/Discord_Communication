@@ -4,10 +4,9 @@
 *Package Structure*
 
 The artifact consists of following three parts：
-- Data
-  
-  These datasets are used for analysis in subsequent four RQs.
 
+- Data
+  The data needs to be downloaded from the given link and placed in the ./data directory, which is structured as follows: 
   - *DataZIP*：This folder contains original data extracted by DiscordChatExporter, which is stored in zip format.
   - *DataJSON*: This folder contains utterances extracted from zip files in *DataZIP*, which are stored in json format.
   - *DataTXT*: This folder contains the utterances with timestamp, username and utterance content, which are extracted from JSON files.
@@ -139,5 +138,3 @@ To generate TABLE VI, run the R script *./Code/QuantitativeAnalysis/RQ4/Regressi
 (ii) Then run the commands from the specified directory to get the results of regressions:
     *setwd(".\\Discord\\Data\\DataRQ\\RQ4")*
     *source(".\\Discord\\Code\\QuantitativeAnalysis\\RQ4\\Regression.R",echo = TRUE)*
-   
-The paper figures are in *./Figure
